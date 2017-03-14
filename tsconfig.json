@@ -9,9 +9,7 @@
     "removeComments": false,
     "lib": [ "es2015", "dom" ],
     "noImplicitAny": false,
-    "moduleResolution": "node",
-    "sourceRoot": "app",
-    "outDir": "js"
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules",

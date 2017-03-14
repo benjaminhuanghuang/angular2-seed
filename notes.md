@@ -2,6 +2,11 @@
     Angular 2 Tutorial for Beginners: Learn Angular 2 from Scratch
     https://www.youtube.com/watch?v=_-CD_5YhJTA&t=931s
 
+## ts config
+    "sourceRoot": "app",
+    "outDir": "js"
+  
+
 ## 4 key players:
     - Components
         Encapsulates the tempalte, data, and behavior of a view.
