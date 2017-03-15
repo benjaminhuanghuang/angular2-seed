@@ -21,7 +21,13 @@
     - Directives
         Modify DOM and extend their behaviour
 
+## Create component and use it in another component
 
+## Use property on compenent and For loop
+
+## Use service
+
+## Attribut directive
 
     
 
