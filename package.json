@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\"",
-    "tsc:w": "tsc -w",
+    "tsc:w": "tsc -p src/ -w",
     "lite": "lite-server",
     "postinstall": "typings install dt~core-js --global"
   },
@@ -28,6 +28,13 @@
     "bootstrap": "^3.3.7"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^3.1.5",
+    "gulp-uglify": "^2.0.0",
+
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
     "typings": "^2.1.0"

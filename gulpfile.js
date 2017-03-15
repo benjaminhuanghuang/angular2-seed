@@ -8,12 +8,12 @@ var srcPaths = {
 };
 
 var destPaths = {
-    app: 'wwwroot/app/'
+    app: 'app/'
 };
     
 // Delete wwwroot/app contents
-gulp.task('app_clean', function () {
-    return gulp.src(srcPaths.app + "*.js", {
+gulp.task('clean', function () {
+    return gulp.src(srcPaths.app + "*", {
             read: false
         })
         .pipe(gp_clean({
