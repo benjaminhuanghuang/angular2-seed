@@ -5,6 +5,9 @@
     Learn Angular 2 Development 2017
     https://www.youtube.com/watch?v=0B6HfmMkt_A&list=PLD1N4psMuuzcD8acRixuGKUyOpiQeOP3O
 
+    Learn Angular 2 Development 2017 (06 Angular 2 Router)
+    https://www.youtube.com/watch?v=2OTpJaP63Fc&list=PLD1N4psMuuzcD8acRixuGKUyOpiQeOP3O&index=5#t=274.023376
+    
 ## ts config
     "sourceRoot": "app",
     "outDir": "js"
