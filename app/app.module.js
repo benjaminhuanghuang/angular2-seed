@@ -11,6 +11,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var courses_component_1 = require("./courses.component");
 var auto_grow_directive_1 = require("./auto-grow.directive");
+var navbar_component_1 = require("./components/navbar/navbar.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,7 +23,8 @@ AppModule = __decorate([
         declarations: [
             app_component_1.AppComponent,
             courses_component_1.CoursesComponent,
-            auto_grow_directive_1.AutoGrowDirective
+            auto_grow_directive_1.AutoGrowDirective,
+            navbar_component_1.NavbarComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })

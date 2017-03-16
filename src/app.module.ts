@@ -5,12 +5,16 @@ import { AppComponent }  from './app.component';
 import { CoursesComponent } from './courses.component';
 import { AutoGrowDirective } from './auto-grow.directive';
 
+import { NavbarComponent } from './components/navbar/navbar.component';
+
 @NgModule({
   imports:      [ BrowserModule ],
   declarations: [ 
                   AppComponent,
                   CoursesComponent,
-                  AutoGrowDirective
+                  AutoGrowDirective,
+
+                  NavbarComponent
                 ],
   bootstrap:    [ AppComponent ]
 })

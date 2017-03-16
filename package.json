@@ -5,11 +5,11 @@
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\"",
     "tsc:w": "tsc -p src/ -w",
     "lite": "lite-server",
-    "postinstall": "typings install dt~core-js --global"
+    "postinstall": "typings install dt~core-js dt~node --global"
   },
   "license": "MIT",
   "dependencies": {
-     "@angular/common": "^2.4.9",
+    "@angular/common": "^2.4.9",
     "@angular/compiler": "^2.4.9",
     "@angular/compiler-cli": "^2.4.9",
     "@angular/core": "^2.4.9",
@@ -37,6 +37,7 @@
 
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
-    "typings": "^2.1.0"
+    "typings": "^2.1.0",
+    "typescript": "^2.2.1"
   }
 }

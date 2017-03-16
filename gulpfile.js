@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 
 /// Define paths
 var srcPaths = {
-    app: ['app']
+    src: ['src']
 };
 
 var destPaths = {
@@ -21,4 +21,13 @@ gulp.task('clean', function () {
         }));
 });
 
-// gulp.task('default', ['app', 'js', 'watch']);
+// Copy all JS files from external libraries to wwwroot/js
+gulp.task('html', function () {
+    gulp.src(srcPaths.src + "/**/*.html")
+        .pipe(gulp.dest(destPaths.app));
+});
+
+gulp.task('watch', function () {
+    gulp.watch([srcPaths.src+"/**/*.html"], ['html']);
+});
+gulp.task('default', ['html', 'watch']);
