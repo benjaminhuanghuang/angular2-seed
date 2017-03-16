@@ -2,6 +2,9 @@
     Angular 2 Tutorial for Beginners: Learn Angular 2 from Scratch
     https://www.youtube.com/watch?v=_-CD_5YhJTA&t=931s
 
+    Learn Angular 2 Development 2017
+    https://www.youtube.com/watch?v=0B6HfmMkt_A&list=PLD1N4psMuuzcD8acRixuGKUyOpiQeOP3O
+
 ## ts config
     "sourceRoot": "app",
     "outDir": "js"

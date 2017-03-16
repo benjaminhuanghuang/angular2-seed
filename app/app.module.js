@@ -12,6 +12,7 @@ var app_component_1 = require("./app.component");
 var courses_component_1 = require("./courses.component");
 var auto_grow_directive_1 = require("./auto-grow.directive");
 var navbar_component_1 = require("./components/navbar/navbar.component");
+var jumbotron_component_1 = require("./components/jumbotron/jumbotron.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -24,7 +25,8 @@ AppModule = __decorate([
             app_component_1.AppComponent,
             courses_component_1.CoursesComponent,
             auto_grow_directive_1.AutoGrowDirective,
-            navbar_component_1.NavbarComponent
+            navbar_component_1.NavbarComponent,
+            jumbotron_component_1.JumbotronComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })

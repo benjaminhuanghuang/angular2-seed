@@ -6,6 +6,7 @@ import { CoursesComponent } from './courses.component';
 import { AutoGrowDirective } from './auto-grow.directive';
 
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
@@ -14,7 +15,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
                   CoursesComponent,
                   AutoGrowDirective,
 
-                  NavbarComponent
+                  NavbarComponent,
+                  JumbotronComponent
                 ],
   bootstrap:    [ AppComponent ]
 })
