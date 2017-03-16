@@ -13,6 +13,9 @@ var courses_component_1 = require("./courses.component");
 var auto_grow_directive_1 = require("./auto-grow.directive");
 var navbar_component_1 = require("./components/navbar/navbar.component");
 var jumbotron_component_1 = require("./components/jumbotron/jumbotron.component");
+var about_component_1 = require("./components/pages/about.component");
+var home_component_1 = require("./components/pages/home.component");
+var app_routing_1 = require("./app.routing");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -20,13 +23,15 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
+        imports: [platform_browser_1.BrowserModule, app_routing_1.routing],
         declarations: [
             app_component_1.AppComponent,
             courses_component_1.CoursesComponent,
             auto_grow_directive_1.AutoGrowDirective,
             navbar_component_1.NavbarComponent,
-            jumbotron_component_1.JumbotronComponent
+            jumbotron_component_1.JumbotronComponent,
+            about_component_1.AboutComponent,
+            home_component_1.HomeComponent,
         ],
         bootstrap: [app_component_1.AppComponent]
     })
